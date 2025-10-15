@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Quiz Senac 2025.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Quiz Senac 2025.png" />
+  </ItemGroup>
+
 </Project>
