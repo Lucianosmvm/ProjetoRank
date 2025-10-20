@@ -13,7 +13,7 @@ namespace ProjetoRank
             {
                 if (Conexao == null)
                 {
-                    Conexao = new MySqlConnection("server=localhost;uid=root;pwd=Lsm@1596357;database=quiz");
+                    Conexao = new MySqlConnection("server=localhost;uid=root;pwd=root;database=quiz");
                     Conexao.Open();
                 }
             }
