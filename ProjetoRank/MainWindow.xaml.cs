@@ -41,7 +41,7 @@ namespace ProjetoRank
             try
             {
                 var comando = ConexaoDB.Conexao.CreateCommand();
-                comando.CommandText = "SELECT JogadorID, pontos FROM pontos ORDER BY pontos DESC LIMIT 3";
+                comando.CommandText = "SELECT Nome, Pontos FROM jogadores ORDER BY Pontos DESC LIMIT 5";
 
                 using (var reader = comando.ExecuteReader())
                 {
@@ -52,29 +52,32 @@ namespace ProjetoRank
                         string nome = reader.GetString(0);
                         int pontos = reader.GetInt32(1);
 
-                        string texto = $"{nome} - {pontos} pontos";
-
                         // Atualiza a label correspondente
                         switch (posicao)
                         {
                             case 1:
-                                J1.Content = texto;
+                                J1.Content = nome;
+                                Pt1.Content = pontos;
                                 break;
 
                             case 2:
-                                J2.Content = texto;
+                                J2.Content = nome;
+                                Pt2.Content = pontos;
                                 break;
 
                             case 3:
-                                J3.Content = texto;
+                                J3.Content = nome;
+                                Pt3.Content = pontos;
                                 break;
 
                             case 4:
-                                J4.Content = texto;
+                                J4.Content = nome;
+                                Pt4.Content = pontos;
                                 break;
 
                             case 5:
-                                J5.Content = texto;
+                                J5.Content = nome;
+                                Pt5.Content = pontos;
                                 break;
                         }
 
