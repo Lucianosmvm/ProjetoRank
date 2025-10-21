@@ -19,7 +19,7 @@ namespace ProjetoRank
     public partial class MainWindow : Window
     {
         private DispatcherTimer timer;
-        
+
 
         public MainWindow()
         {
@@ -27,7 +27,7 @@ namespace ProjetoRank
 
             // Abrir conexão com o banco quiz_jogador
             ConexaoDB.AbrirConexao();
-
+            AtualizarPontos();
             // Inicia o timer
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(10); // A cada 10 segundos
@@ -85,10 +85,17 @@ namespace ProjetoRank
                     }
 
                     // Caso haja menos de 5 jogadores, limpa as labels restantes
+                    if (posicao <= 1) J1.Content = "";
                     if (posicao <= 2) J2.Content = "";
                     if (posicao <= 3) J3.Content = "";
                     if (posicao <= 4) J4.Content = "";
                     if (posicao <= 5) J5.Content = "";
+
+                    if (posicao <= 1) Pt1.Content = "";
+                    if (posicao <= 2) Pt2.Content = "";
+                    if (posicao <= 3) Pt3.Content = "";
+                    if (posicao <= 4) Pt4.Content = "";
+                    if (posicao <= 5) Pt5.Content = "";
                 }
             }
             catch (Exception ex)

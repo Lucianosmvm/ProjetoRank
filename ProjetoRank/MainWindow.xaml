@@ -13,26 +13,26 @@
                 <ImageBrush Stretch="Fill" ImageSource="Quiz Senac 2025.png"/>
             </Grid.Background>
 
-            <Label x:Name="Pt1" Content="100" HorizontalAlignment="Left" Margin="515,128,0,0" VerticalAlignment="Top"
+            <Label x:Name="Pt1" Content="100" HorizontalAlignment="Left" Margin="515,135,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF0C0B0B"/>
-            <Label x:Name="J1" Content="Label1" HorizontalAlignment="Left" Margin="258,128,0,0" VerticalAlignment="Top"
+            <Label x:Name="J1" Content="Label1" HorizontalAlignment="Left" Margin="258,135,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF0C0B0B"/>
-            <Label x:Name="J2" Content="Label2" HorizontalAlignment="Left" Margin="258,178,0,0" VerticalAlignment="Top"
+            <Label x:Name="J2" Content="Label2" HorizontalAlignment="Left" Margin="258,185,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="Black"/>
-            <Label x:Name="J3" Content="Label3" HorizontalAlignment="Left" Margin="258,227,0,0" VerticalAlignment="Top"
+            <Label x:Name="J3" Content="Label3" HorizontalAlignment="Left" Margin="258,234,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF040404"/>
-            <Label x:Name="J4" Content="Label4" HorizontalAlignment="Left" Margin="258,275,0,0" VerticalAlignment="Top"
+            <Label x:Name="J4" Content="Label4" HorizontalAlignment="Left" Margin="258,282,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="White"/>
-            <Label x:Name="J5" Content="Label5" HorizontalAlignment="Left" Margin="258,324,0,0" VerticalAlignment="Top"
+            <Label x:Name="J5" Content="Label5" HorizontalAlignment="Left" Margin="258,331,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="White"/>
 
-            <Label x:Name="Pt2" Content="100" HorizontalAlignment="Left" Margin="515,180,0,0" VerticalAlignment="Top"
+            <Label x:Name="Pt2" Content="100" HorizontalAlignment="Left" Margin="515,187,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF0C0B0B"/>
-            <Label x:Name="Pt3" Content="100" HorizontalAlignment="Left" Margin="515,227,0,0" VerticalAlignment="Top"
+            <Label x:Name="Pt3" Content="100" HorizontalAlignment="Left" Margin="515,234,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF0C0B0B"/>
-            <Label x:Name="Pt4" Content="100" HorizontalAlignment="Left" Margin="515,275,0,0" VerticalAlignment="Top"
+            <Label x:Name="Pt4" Content="100" HorizontalAlignment="Left" Margin="515,282,0,0" VerticalAlignment="Top"
                    FontSize="20" FontWeight="Bold" Foreground="#FF0C0B0B"/>
-            <Label x:Name="Pt5" Content="100" Margin="515,324,240,73" FontSize="20" FontWeight="Bold"
+            <Label x:Name="Pt5" Content="100" Margin="515,331,240,66" FontSize="20" FontWeight="Bold"
                    Foreground="#FF0C0B0B"/>
         </Grid>
     </Viewbox>
