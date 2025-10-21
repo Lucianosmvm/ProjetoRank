@@ -35,6 +35,10 @@ namespace ProjetoRank
             timer.Tick += (sender, e) => AtualizarPontos();
             timer.Start();
 
+            this.WindowStyle = WindowStyle.None;
+            this.WindowState = WindowState.Maximized;
+            this.ResizeMode = ResizeMode.NoResize;
+
         }
         private void AtualizarPontos()
         {
