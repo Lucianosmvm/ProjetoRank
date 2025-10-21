@@ -28,17 +28,13 @@ namespace ProjetoRank
             // Abrir conexão com o banco quiz_jogador
             ConexaoDB.AbrirConexao();
 
-            AtualizarPontos();
             // Inicia o timer
             timer = new DispatcherTimer();
             timer.Interval = TimeSpan.FromSeconds(10); // A cada 10 segundos
             timer.Tick += (sender, e) => AtualizarPontos();
             timer.Start();
 
-            this.WindowStyle = WindowStyle.None;
             this.WindowState = WindowState.Maximized;
-            this.ResizeMode = ResizeMode.NoResize;
-
         }
         private void AtualizarPontos()
         {
